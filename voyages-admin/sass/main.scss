@@ -1,0 +1,16 @@
+@import 'mixin/mixin';
+@import 'variables/variables';
+@import 'helper/helper';
+@import 'component/loader/loader';
+
+//modules
+@import 'modules/common/header';
+@import 'modules/common/sidebar';
+@import 'modules/login';
+@import 'modules/dashboard';
+@import 'modules/common-grid-page';
+@import 'modules/changepassword';
+
+//modol
+@import 'modules/modals/addcategory-modal';
+@import 'modules/modals/post-modal';

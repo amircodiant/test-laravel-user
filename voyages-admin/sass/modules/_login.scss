@@ -1,0 +1,50 @@
+body.loginpage{
+    padding-top:0px;
+}
+.login-page{  
+    background-color:$themecolor; background-position:center;background-size:cover;background-attachment: fixed;position: absolute;height: 100%;width: 100%;
+    .login_section{      
+        margin: 10% auto 0;width:400px;
+        .inner_section{
+            background:#ffffff;margin-top:30px;padding:30px;
+            .form-group{
+                label{
+                    font-weight:normal;color:#444444;
+                }
+                .input-group-addon{
+                    color:#767676;
+                    .fa{
+                        width:18px;
+                    }
+                }
+                .form-control{
+                    font-size:16px;
+                }
+
+            }
+        }
+    }
+    @media(max-width:$screen-xs-max){
+        .login_section{
+            width:auto;
+            .img-responsive{
+                max-width: 154px;
+            }
+            .inner_section{
+                margin-top:19px;padding:20px;
+                h2{
+                    font-size:22px;
+                }
+                .form-group{
+                    .input-group{
+                        .input-group-addon{
+                            font-size: 17px;height: 29px;padding: 4px 16px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+

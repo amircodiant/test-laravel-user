@@ -1,0 +1,34 @@
+.post-modal{
+    .modal-body{
+        .sliderbox{            
+            .item{               
+                img{
+                    width:auto;
+                }
+            }
+            .fullslider{
+                margin-bottom:20px;
+                .item{
+                     border:4px solid #149fcd;
+                     img{
+                         width:100%;
+                     }
+                }
+            }
+            .thumbslider{
+                .owl-item{
+                    &.active{
+                        &.current{
+                            border:2px solid #149fcd;
+                        }
+                    }
+                } 
+                .owl-nav{
+                    div{
+                       background-color: #149fcd;cursor: pointer;line-height: normal;padding: 10px 19px;text-transform: uppercase;
+                    }
+                }
+            }
+        }
+    }
+}
